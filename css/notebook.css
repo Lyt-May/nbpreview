@@ -77,12 +77,18 @@
 .code_line_label {
     position: relative;
     width:100%;
-    background-color: #EEEEEE;
+    background-color: whitesmoke;
 }
+.code_line_label:hover{
+    background-color: ivory;
 
-pre:hover{
-    background-color: white;
-
+}
+code{
+    background-color: rgba(0,0,0,0);
+}
+pre{
+    display: inline-block;
+    margin:0;
 }
 
 // Fix pandas dataframe formatting
