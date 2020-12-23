@@ -76,7 +76,7 @@
 
 .code_line_label {
     weight:100%;
-    background-color: lightgray;
+    background-color: #EEEEEE;
 }
 .code_line_label:hover{
     background-color: white;
