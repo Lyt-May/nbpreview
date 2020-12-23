@@ -75,7 +75,8 @@
 }
 
 .code_line_label {
-    weight:100%;
+    position: relative;
+    width:100%;
     background-color: #EEEEEE;
 }
 .code_line_label:hover{
