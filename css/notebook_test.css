@@ -19,11 +19,29 @@
 {
     position: absolute;
     top: 0;
-    right: 755px;
+    left: -405px;
     bottom: 0;
     overflow: auto;
-    width: 500px;
-    border: 1px solid lightgray;;
+    width: 400px;
+    border: 1px solid lightgray;
+}
+.nb-total-output:hover{
+    overflow: visible;
+    z-index: 1;
+    width: max-content;
+    border: none;
+}
+
+.nb-output {
+    position: relative;
+    min-height: 1em;
+    padding-left: 2px;
+    padding-right: 2px;
+    /*
+    overflow-x: auto;
+     */
+    background-color: white;
+    border-right: 1px dotted #CCC;
 }
 
 .nb-output table {
@@ -57,14 +75,7 @@
     margin: .5em 0;
 }
 
-.nb-output {
-    position: relative;
-    min-height: 1em;
-    margin-left: 1%;
-    width: 98%;
-    overflow-x: auto;
-    border-right: 1px dotted #CCC;
-}
+
 
 .nb-output img {
     max-width: 100%;    
