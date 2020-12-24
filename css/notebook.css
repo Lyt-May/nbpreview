@@ -1,5 +1,5 @@
 .nb-notebook {
-    line-height: 1.5;    
+    line-height: 1.5;
 }
 
 .nb-stdout, .nb-stderr {
@@ -15,6 +15,35 @@
 .nb-cell + .nb-cell {
     margin-top: 0.5em;
 }
+.nb-total-output
+{
+    position: absolute;
+    top: 0;
+    left: -405px;
+    bottom: 0;
+    overflow: auto;
+    width: 400px;
+    border: 1px solid lightgray;
+}
+.nb-total-output:hover{
+    overflow: visible;
+    z-index: 1;
+    width: max-content;
+    height: max-content;
+    border: none;
+}
+
+.nb-output {
+    position: relative;
+    min-height: 1em;
+    padding-left: 2px;
+    padding-right: 2px;
+    /*
+    overflow-x: auto;
+     */
+    background-color: white;
+    border-right: 1px dotted #CCC;
+}
 
 .nb-output table {
     border: 1px solid #000;
@@ -27,7 +56,7 @@
 
 .nb-output th, .nb-output td {
     border: 1px solid #000;
-    padding: 0.25em;    
+    padding: 0.25em;
     text-align: left;
     vertical-align: middle;
     border-collapse: collapse;
@@ -47,19 +76,14 @@
     margin: .5em 0;
 }
 
-.nb-output {
-    min-height: 1em;    
-    width: 100%;
-    overflow-x: scroll;
-    border-right: 1px dotted #CCC;
-}
+
 
 .nb-output img {
-    max-width: 100%;    
+    max-width: 100%;
 }
 
 .nb-output:before, .nb-input:before {
-    position: absolute;    
+    position: absolute;
     font-family: monospace;
     color: #999;
     left: -7.5em;
@@ -68,10 +92,16 @@
 }
 
 .nb-input:before {
+    /*
     content: "In [" attr(data-prompt-number) "]:";
+
+     */
 }
 .nb-output:before {
+    /*
     content: "Out [" attr(data-prompt-number) "]:";
+
+     */
 }
 
 .code_line_label {
@@ -99,8 +129,8 @@ pre{
 }
 
 // Fix pandas dataframe formatting
-div[style="max-height:1000px;max-width:1500px;overflow:auto;"] {
-    max-height: none !important;
+   div[style="max-height:1000px;max-width:1500px;overflow:auto;"] {
+       max-height: none !important;
 
-}
+   }
 
