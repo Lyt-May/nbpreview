@@ -23,7 +23,7 @@
     bottom: 0;
     overflow: auto;
     width: 400px;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
 }
 .nb-total-output:hover{
     overflow: visible;

@@ -15,6 +15,8 @@
 .nb-cell + .nb-cell {
     margin-top: 0.5em;
 }
+
+
 .nb-total-output
 {
     position: absolute;
@@ -23,7 +25,7 @@
     bottom: 0;
     overflow: auto;
     width: 400px;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray;*/
 }
 .nb-total-output:hover{
     overflow: visible;
@@ -64,7 +66,7 @@
 
 .nb-cell {
     position: relative;
-    border: 1px solid lightgray;
+    /* border-top: 1px solid lightgray;*/
     padding: 5px;
 }
 
