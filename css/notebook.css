@@ -105,7 +105,7 @@
 
      */
 }
-
+/*
 .code_line_label {
     position: relative;
     width:100%;
@@ -115,6 +115,8 @@
     background-color: ivory;
 
 }
+*/
+
 .nb-markdown-cell pre code {
     white-space: pre-wrap;       /* CSS 3 */
     white-space: -moz-pre-wrap;  /* Mozilla */
