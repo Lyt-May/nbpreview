@@ -130,8 +130,11 @@ pre{
     margin:0;
 }
 
-.nb-commenting-label{
+div.nb-commenting-label{
     background-color: cornsilk;
+}
+.nb-commented-label{
+    background-color: linen;
 }
 
 // Fix pandas dataframe formatting
