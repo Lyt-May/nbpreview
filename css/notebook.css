@@ -130,6 +130,10 @@ pre{
     margin:0;
 }
 
+.nb-commenting-label{
+    background-color: cornsilk;
+}
+
 // Fix pandas dataframe formatting
    div[style="max-height:1000px;max-width:1500px;overflow:auto;"] {
        max-height: none !important;
