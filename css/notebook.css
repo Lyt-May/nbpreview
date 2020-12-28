@@ -13,7 +13,10 @@
 }
 
 .nb-cell + .nb-cell {
+    /*
     margin-top: 0.5em;
+
+     */
 }
 
 
@@ -67,7 +70,9 @@
 .nb-cell {
     position: relative;
     /* border-top: 1px solid lightgray;*/
-    padding: 5px;
+    /* padding: 5px;*/
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .nb-raw-cell {
