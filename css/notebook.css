@@ -24,10 +24,10 @@
 {
     position: absolute;
     top: 0;
-    left: -405px;
+    left: -70%;
     bottom: 0;
     overflow: auto;
-    width: 400px;
+    width: 70%;
     /* border: 1px solid lightgray;*/
 }
 .nb-total-output:hover{
