@@ -33,7 +33,7 @@
 .nb-total-output:hover{
     overflow: visible;
     z-index: 1;
-    width: max-content;
+    min-width: max-content;
     height: max-content;
     border: none;
 }
